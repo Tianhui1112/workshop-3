@@ -81,7 +81,7 @@ function draw() {
 **background(220)**: Clears the canvas before each drawing and resets the background color.
 **for loop**: Loops through the `collage` array, retrieves each image object (`imgObj`), and uses the `image()` function to draw the image at the (x, y) position on the canvas.
 
-1.3: Define a function to update the filter.
+1.5: Define a function to update the filter.
 ```javascript
 function updateCollage() {
   // Randomly choose an image not to apply any filter
